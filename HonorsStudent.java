@@ -7,10 +7,9 @@ package com.mycompany.studentmanagementsystem;
 
 public class HonorsStudent extends Student {
 /**
- *
+ *Subclass of Student represents an honors student to satisfy requirement of handling different types of students. 
  * @author jpupc
- */ 
-// Subclass of Student represents an honors student to satisfy requirement of handling different types of students. 
+ */  
 
     // Constructor delegates initialization to the Student superclass
     public HonorsStudent(String id, String name) {

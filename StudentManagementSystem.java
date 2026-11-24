@@ -5,7 +5,8 @@
 package com.mycompany.studentmanagementsystem;
 
 /**
- *
+ * Core system controller that manages student records, grade tracking,
+ * report generation, sorting/searching, and text-file persistence.
  * @author jpupc
  */
 
@@ -17,10 +18,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-/**
- * Core system controller that manages student records, grade tracking,
- * report generation, sorting/searching, and text-file persistence.
- */
+
 public class StudentManagementSystem {
 
     // Stores all Student and HonorsStudent objects (polymorphic collection)
