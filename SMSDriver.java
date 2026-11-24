@@ -100,7 +100,6 @@ public class SMSDriver {
         System.out.println("==========================================");
     }
 
-    // Prompts for student ID, name, and type (Regular vs. Honors)
     // Prompts for student ID, name, and type (Regular vs. Honors) 
     private static void handleAddStudent(Scanner scanner, StudentManagementSystem sms) {
         System.out.print("Enter Student ID: ");
